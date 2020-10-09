@@ -70,8 +70,8 @@
     left: 100px;
     border-radius: 50%;
     background-color: white;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 
 .round2 {
@@ -80,8 +80,8 @@
     left: 100px;
     border-radius: 50%;
     background-color: white;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 
 .round1 {
@@ -90,8 +90,8 @@
     left: 120px;
     border-radius: 50%;
     background-color: white;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 
 .round3 {
@@ -100,8 +100,8 @@
     left: 140px;
     border-radius: 50%;
     background-color: white;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 
 .round4 {
@@ -110,8 +110,8 @@
     left: 160px;
     border-radius: 50%;
     background-color: white;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 
 .round5 {
@@ -120,8 +120,8 @@
     left: 180px;
     border-radius: 50%;
     background-color: white;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 
 .round6 {
@@ -130,8 +130,8 @@
     left: 100px;
     border-radius: 50%;
     background-color: white;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 
 .round7 {
@@ -140,8 +140,8 @@
     left: 100px;
     border-radius: 50%;
     background-color: white;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 
 .round8 {
@@ -150,8 +150,8 @@
     left: 100px;
     border-radius: 50%;
     background-color: white;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 
 .round9 {
@@ -160,11 +160,11 @@
     left: 100px;
     border-radius: 50%;
     background-color: white;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 
-/** ------------------- Right side image -------------------- **/
+/** ------------------- Right side image ------------------ **/
 
 .rightside {
     background: url("/home/wissem/Desktop/maquette/img/img2.jpg");
@@ -174,7 +174,7 @@
     height: 465px;
 }
 
-/** ------------------- Center div --------------------------- **/
+/** ------------------- Center div ------------------------- **/
 
 .centerdiv {
     text-align: center;
@@ -185,6 +185,7 @@
     position: absolute;
     top: 320px;
     left: 400px;
+
 }
 
 .centerdiv h2 {
@@ -192,7 +193,7 @@
     font-style: oblique;
 }
 
-/** ---------------------- About ------------------------------ **/
+/** ------------------------------ About ------------------------------ **/
 
 .about {
     width: 100%;
@@ -244,28 +245,28 @@
 .aboutright p {
     position: relative;
     top: 130px;
-    font-family: calibri;
+    font-family: sans-serif;
 }
 
 .aboutright p #text {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.aboutright button {
+.btn {
     position: relative;
     top: 150px;
     left: 200px;
-    width: 120px;
+    width: 150px;
     height: 40px;
     background-color: var(--yellowish);
     border-radius: 10px;
-    box-shadow: var(--yellowish);
+    
 }
-/** ------------------- Works ----------------------**/
+/** ----------------------- Works -----------------------------------**/
 .bordertop {
     position: relative;
-    top: 790px;
-    left: 640px;
+    top: 890px;
+    left: -10px;
     width: 120px;
     height: 3px;
     background-color: var(--yellowish);
@@ -274,15 +275,17 @@
 .borderbottom {
     position: relative;
     top: 1px;
-    left: 640px;
+    left: -10px;
     width: 120px;
     height: 3px;
     background-color: var(--yellowish);
 }
 .worktitle {
     position: relative;
-    top: 180px;
-    left: -20px;
+    top: 80px;
+    left: 605px;
+    width: 20%;
+    height: 100px;
 }
 
 .worktitle h2 {
@@ -294,11 +297,11 @@
     position: relative;
     justify-content: space-between;
     columns: 3;
-    top: 200px;
+    top: 230px;
     flex-wrap: wrap;
     width: 80%;
     left: 150px;
-    top: 125px;
+    top: 150px;
 }
 
 .projects {
@@ -343,4 +346,72 @@
 
 .projects:hover {
     cursor: cell;
+    transform: scale(1.15);
+}
+
+/** --------------------------- Contact ----------------------- **/
+
+.Contacttitle {
+    position: relative;
+    top: 180px;
+    left: 600px;
+    overflow-x: hidden;
+    width: 20%;
+}
+
+.contactborder {
+    top: 1px;
+    left: -10px;
+    width: 150px;
+}
+
+.Contacttitle h2 {
+    font-size: 30px;
+}
+
+/** ------------- Table ----------- **/
+
+table {
+    position: relative;
+    margin-top: 220px;
+    margin-left: 120px;
+    width: 80%;
+}
+
+table td {
+    text-align: center;
+    padding: 10px;
+}
+
+/** ---------- Contact info --------**/
+
+.detailscontainer {
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.det {
+    display: flex;
+}
+.roundicon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.details {
+    display: inline-block
+    width: 30%;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.details p , .details a{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon1 {
+    border: 1px solid black;
 }
