@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7565d787a3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- ********** Header ******************** -->
-    <div class="container">
+
+    <!-- ***************** Header ******************** -->
+
+    <div class="container" id="header">
         <nav class="navbar">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Works</a>
-                <a href="">Contact</a>
+                <a href="#header">Home</a>
+                <a href="#about">About</a>
+                <a href="#work">Works</a>
+                <a href="#contact">Contact</a>
         </nav>
         <div class="leftside">
             <h3>Portfolio</h3>
@@ -35,9 +38,11 @@
             <h2>I'm a Web Developer</h2>
         </div>
     </div>
+
     <!-- *********************** About ***********************-->
-    <div class="About">
-        <div class="aboutleft">
+
+    <div class="About" >
+        <div class="aboutleft" id="about">
             <div class="backgrey"></div>
             <div class="aboutimg"></div>
         </div>
@@ -54,12 +59,17 @@
                 I like people who are passionate and committed to their talents.
                 I like working with them and supporting them in their projects.
             </p>
-            <button>Download CV</button>
+            <button class="btn" type="button">
+                <a href="https://drive.google.com/file/d/17qMQIJNxC1rnGcXBh4qaPK66G12Tm2Dg/view?usp=sharing" style="text-decoration: none; color: black;"> <i class="fas fa-download"></i> Download CV
+                </a>
+            </button>
         </div>
     </div>
+
     <!-- ******************** Works *******************-->
+
     <div class="worktitle">
-        <div class="bordertop"></div>
+        <div class="bordertop" id="work"></div>
         <h2>Works</h2>
         <div class="borderbottom"></div>
     </div>
@@ -81,6 +91,50 @@
         </div>
         <div class="project6 projects">
 
+        </div>
+    </div>
+
+    <!-- ********************* Contact ******************-->
+
+    <div class="Contacttitle" id="contact">
+        <div class="bordertop contactborder"></div>
+        <h2>Contact</h2>
+        <div class="borderbottom contactborder"></div>
+    </div>
+    <form action="mailto:aouichiwissemsimplonenda@gmail.com" method="get">
+        <table>
+            <tr>
+                <td><input type="text" name="Name" id="Name" placeholder="Full Name"></td>
+                <td><input type="email" name="Email" id="Email" placeholder="Email"></td> 
+                <td><input type="tel" name="Tel" id="Tel" placeholder="Tel"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <textarea name="Text" id="Text" cols="128" rows="10" placeholder="Type your text here please"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+    <div class="detailscontainer">
+        <div class="det det1">
+            <div class="roundicon icon1"><i class="fas fa-phone-alt fa-3x"></i></div>
+            <div class="details"><p> +216 52 669 340</p></div>
+        </div>
+        <div class="det det2">
+            <div class="roundicon"><i class="fab fa-github fa-3x"></i></div>
+            <div class="details"><a href="http://github.com/WissemAouichi">Github.com/WissemAouichi</a></div>
+        </div>   
+        <div class="det det3">
+            <div class="roundicon"><i class="fab fa-linkedin fa-3x"></i></div>
+            <div class="details"><a href="http://LinkedIn.com/WissemAouichi">LinkedIn.com/WissemAouichi</a></div>
+        </div>
+        <div class="det det4">
+            <div class="roundicon"><i class="fas fa-at fa-3x"></i></div>
+            <div class="details"><p>Wissem.aouichi@gmail.com</p></div>
         </div>
     </div>
 </body>
